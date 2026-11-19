@@ -4,7 +4,7 @@ name: Life Architect
 tagline: One deck for everything on your plate
 icon: https://raw.githubusercontent.com/btcsessions/umbrel-apps/main/btcsessions-life-architect/icon.svg
 category: automation
-version: "0.3.11"
+version: "0.3.12"
 port: 4600
 description: >-
   A personal command deck. One ranked "next up" list, voice quick-add, and modules for each area of life:
@@ -18,8 +18,8 @@ repo: ""
 support: https://github.com/btcsessions/umbrel-apps/issues
 gallery: []
 releaseNotes: >-
-  Bitcoin you send that does not go to another of your wallets now counts as paying down debt, not spending, by
-  default. There is a switch for this in the Bitcoin section, and you can re-type any single line that was a purchase.
+  Investments and assets in Money: add stocks by ticker and share count (valued in CAD), add a home or other property
+  with what is still owing to see your equity, and see worth, owing and net in one place, including Bitcoin wallets.
 dependencies: []
 path: ""
 defaultUsername: ""
