@@ -4,7 +4,7 @@ name: Life Architect
 tagline: One deck for everything on your plate
 icon: https://raw.githubusercontent.com/btcsessions/umbrel-apps/main/btcsessions-life-architect/icon.svg
 category: automation
-version: "0.3.8"
+version: "0.3.9"
 port: 4600
 description: >-
   A personal command deck. One ranked "next up" list, voice quick-add, and modules for each area of life:
@@ -18,8 +18,8 @@ repo: ""
 support: https://github.com/btcsessions/umbrel-apps/issues
 gallery: []
 releaseNotes: >-
-  Fixes a crash when opening Every transaction in Money. Adds your own transaction types, and a way to correct
-  charges that were read as income: flip one line, or a whole account for a month or for everything.
+  Bitcoin wallets in Money now accept multisig output descriptors (wsh, sh-wsh and sh, with multi or sortedmulti).
+  After adding a wallet the first receive address is shown so you can check it against your own wallet.
 dependencies: []
 path: ""
 defaultUsername: ""
