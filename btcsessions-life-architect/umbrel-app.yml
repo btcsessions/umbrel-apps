@@ -4,7 +4,7 @@ name: Life Architect
 tagline: One deck for everything on your plate
 icon: https://raw.githubusercontent.com/btcsessions/umbrel-apps/main/btcsessions-life-architect/icon.svg
 category: automation
-version: "0.3.12"
+version: "0.3.13"
 port: 4600
 description: >-
   A personal command deck. One ranked "next up" list, voice quick-add, and modules for each area of life:
@@ -18,8 +18,8 @@ repo: ""
 support: https://github.com/btcsessions/umbrel-apps/issues
 gallery: []
 releaseNotes: >-
-  Investments and assets in Money: add stocks by ticker and share count (valued in CAD), add a home or other property
-  with what is still owing to see your equity, and see worth, owing and net in one place, including Bitcoin wallets.
+  Stock prices: lookups are now spaced out, each ticker is asked about once a day unless you tap Refresh, and the
+  message says what actually happened (asked too fast, daily limit reached, ticker needs a paid plan, or bad key).
 dependencies: []
 path: ""
 defaultUsername: ""
