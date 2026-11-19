@@ -4,7 +4,7 @@ name: Life Architect
 tagline: One deck for everything on your plate
 icon: https://raw.githubusercontent.com/btcsessions/umbrel-apps/main/btcsessions-life-architect/icon.svg
 category: automation
-version: "0.1.1"
+version: "0.1.2"
 port: 4600
 description: >-
   A personal command deck. One ranked "next up" list, modules for each area of life,
@@ -17,7 +17,7 @@ repo: ""
 support: https://github.com/btcsessions/umbrel-apps/issues
 gallery: []
 releaseNotes: >-
-  Adds a Settings screen (top right) for connecting the model that files quick-adds, and speech-to-text.
+  Settings: enter the address and pick the model from a list, with no need to know its exact name.
 dependencies: []
 path: ""
 defaultUsername: ""
