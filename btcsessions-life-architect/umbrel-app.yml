@@ -4,7 +4,7 @@ name: Life Architect
 tagline: One deck for everything on your plate
 icon: https://raw.githubusercontent.com/btcsessions/umbrel-apps/main/btcsessions-life-architect/icon.svg
 category: automation
-version: "0.3.0"
+version: "0.3.1"
 port: 4600
 description: >-
   A personal command deck. One ranked "next up" list, voice quick-add, and modules for each area of life:
@@ -18,9 +18,9 @@ repo: ""
 support: https://github.com/btcsessions/umbrel-apps/issues
 gallery: []
 releaseNotes: >-
-  Adds Travel (trips, bookings, costs, schedule to Google Calendar), Money (PIN, statement import, spending chart),
-  People (PIN, relationships, scenarios, readings, library), Inbox (Gmail sorting, spoken replies, hand-off by email),
-  the Hermes relay, and Noticed suggestions under Build. Set PINs on first open; add Gmail and models in Settings.
+  Quick-add now tells a task for you from something you want Hermes to do: instructions like "make a note of..." go to
+  Hermes and its answer shows at the top of the deck, with one tap to turn it into a task instead. Inside an email you
+  can add a task of your own or hand the email to Hermes with an instruction.
 dependencies: []
 path: ""
 defaultUsername: ""
