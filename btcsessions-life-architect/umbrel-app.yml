@@ -4,7 +4,7 @@ name: Life Architect
 tagline: One deck for everything on your plate
 icon: https://raw.githubusercontent.com/btcsessions/umbrel-apps/main/btcsessions-life-architect/icon.svg
 category: automation
-version: "0.3.5"
+version: "0.3.6"
 port: 4600
 description: >-
   A personal command deck. One ranked "next up" list, voice quick-add, and modules for each area of life:
@@ -18,9 +18,8 @@ repo: ""
 support: https://github.com/btcsessions/umbrel-apps/issues
 gallery: []
 releaseNotes: >-
-  Money now matches transfers between your own accounts (chequing to savings, card payments) so they count as neither
-  spending nor income. Adds Bitcoin wallets by public key: balances at today's price, receipts valued in CAD on the
-  day they confirmed, moves between your own wallets shown as transfers, and labels on any transaction.
+  Adds "Check for transfers between my accounts" in Money to sweep everything already imported, and it now also runs
+  on start. Bitcoin sync slows down and retries when a public address server limits requests.
 dependencies: []
 path: ""
 defaultUsername: ""

@@ -9,7 +9,7 @@ services:
       APP_PORT: 4600
 
   web:
-    image: ghcr.io/btcsessions/life-architect:0.3.5
+    image: ghcr.io/btcsessions/life-architect:0.3.6
     restart: on-failure
     user: "1000:1000"
     init: true
