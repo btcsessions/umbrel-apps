@@ -4,7 +4,7 @@ name: Life Architect
 tagline: One deck for everything on your plate
 icon: https://raw.githubusercontent.com/btcsessions/umbrel-apps/main/btcsessions-life-architect/icon.svg
 category: automation
-version: "0.3.4"
+version: "0.3.5"
 port: 4600
 description: >-
   A personal command deck. One ranked "next up" list, voice quick-add, and modules for each area of life:
@@ -18,9 +18,9 @@ repo: ""
 support: https://github.com/btcsessions/umbrel-apps/issues
 gallery: []
 releaseNotes: >-
-  Money now reads PDF statements. Pick one or several; each is read on your Umbrel and shown as a list of transactions
-  to check before anything is saved. You can drop lines, flip in and out, or have the Money model read a statement
-  the built-in reader gets wrong.
+  Money now matches transfers between your own accounts (chequing to savings, card payments) so they count as neither
+  spending nor income. Adds Bitcoin wallets by public key: balances at today's price, receipts valued in CAD on the
+  day they confirmed, moves between your own wallets shown as transfers, and labels on any transaction.
 dependencies: []
 path: ""
 defaultUsername: ""
