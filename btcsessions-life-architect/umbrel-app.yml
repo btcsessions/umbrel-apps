@@ -4,7 +4,7 @@ name: Life Architect
 tagline: One deck for everything on your plate
 icon: https://raw.githubusercontent.com/btcsessions/umbrel-apps/main/btcsessions-life-architect/icon.svg
 category: automation
-version: "0.3.7"
+version: "0.3.8"
 port: 4600
 description: >-
   A personal command deck. One ranked "next up" list, voice quick-add, and modules for each area of life:
@@ -18,8 +18,8 @@ repo: ""
 support: https://github.com/btcsessions/umbrel-apps/issues
 gallery: []
 releaseNotes: >-
-  Money: add your own transaction types. They appear in the list beside every transaction and get their own slice of
-  the chart. Find them under Dig deeper, Every transaction, Your own transaction types.
+  Fixes a crash when opening Every transaction in Money. Adds your own transaction types, and a way to correct
+  charges that were read as income: flip one line, or a whole account for a month or for everything.
 dependencies: []
 path: ""
 defaultUsername: ""
