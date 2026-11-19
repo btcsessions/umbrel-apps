@@ -4,7 +4,7 @@ name: Life Architect
 tagline: One deck for everything on your plate
 icon: https://raw.githubusercontent.com/btcsessions/umbrel-apps/main/btcsessions-life-architect/icon.svg
 category: automation
-version: "0.3.2"
+version: "0.3.3"
 port: 4600
 description: >-
   A personal command deck. One ranked "next up" list, voice quick-add, and modules for each area of life:
@@ -18,9 +18,9 @@ repo: ""
 support: https://github.com/btcsessions/umbrel-apps/issues
 gallery: []
 releaseNotes: >-
-  The main screen now drives every module. From quick-add you can add a trip or booking, log spending, mark or change
-  a task, hand something to Hermes, and act on an email by naming who it's from (reply, hand off, task, or give it to
-  Hermes). Email replies are drafted and wait for a Send tap. Start with "People:" to drop a note into People.
+  People can now take a full hand-over from Hermes: notes arrive with the person's name and date and are filed straight
+  onto them. New people show under "Handed over, not set up yet", where you can set a goal, merge duplicates, rename
+  or remove them. Running the same hand-over twice files it once.
 dependencies: []
 path: ""
 defaultUsername: ""
