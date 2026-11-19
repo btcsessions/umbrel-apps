@@ -4,7 +4,7 @@ name: Life Architect
 tagline: One deck for everything on your plate
 icon: https://raw.githubusercontent.com/btcsessions/umbrel-apps/main/btcsessions-life-architect/icon.svg
 category: automation
-version: "0.3.3"
+version: "0.3.4"
 port: 4600
 description: >-
   A personal command deck. One ranked "next up" list, voice quick-add, and modules for each area of life:
@@ -18,9 +18,9 @@ repo: ""
 support: https://github.com/btcsessions/umbrel-apps/issues
 gallery: []
 releaseNotes: >-
-  People can now take a full hand-over from Hermes: notes arrive with the person's name and date and are filed straight
-  onto them. New people show under "Handed over, not set up yet", where you can set a goal, merge duplicates, rename
-  or remove them. Running the same hand-over twice files it once.
+  Money now reads PDF statements. Pick one or several; each is read on your Umbrel and shown as a list of transactions
+  to check before anything is saved. You can drop lines, flip in and out, or have the Money model read a statement
+  the built-in reader gets wrong.
 dependencies: []
 path: ""
 defaultUsername: ""
