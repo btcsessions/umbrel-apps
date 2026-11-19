@@ -1,0 +1,24 @@
+manifestVersion: 1
+id: btcsessions-life-architect
+name: Life Architect
+tagline: One deck for everything on your plate
+icon: https://raw.githubusercontent.com/btcsessions/umbrel-apps/main/btcsessions-life-architect/icon.svg
+category: automation
+version: "0.1.0"
+port: 4600
+description: >-
+  A personal command deck. One ranked "next up" list, modules for each area of life,
+  and quick-add that files what you type into the right place.
+developer: BTC Sessions
+website: https://github.com/btcsessions/umbrel-apps
+submitter: BTC Sessions
+submission: https://github.com/btcsessions/umbrel-apps
+repo: ""
+support: https://github.com/btcsessions/umbrel-apps/issues
+gallery: []
+releaseNotes: >-
+  Phase 1: the deck, "next up" ranking, collapsed modules with badges, and quick-add by typing.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
