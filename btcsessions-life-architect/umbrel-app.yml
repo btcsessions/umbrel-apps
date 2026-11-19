@@ -4,7 +4,7 @@ name: Life Architect
 tagline: One deck for everything on your plate
 icon: https://raw.githubusercontent.com/btcsessions/umbrel-apps/main/btcsessions-life-architect/icon.svg
 category: automation
-version: "0.3.9"
+version: "0.3.10"
 port: 4600
 description: >-
   A personal command deck. One ranked "next up" list, voice quick-add, and modules for each area of life:
@@ -18,8 +18,9 @@ repo: ""
 support: https://github.com/btcsessions/umbrel-apps/issues
 gallery: []
 releaseNotes: >-
-  Bitcoin wallets in Money now accept multisig output descriptors (wsh, sh-wsh and sh, with multi or sortedmulti).
-  After adding a wallet the first receive address is shown so you can check it against your own wallet.
+  Bitcoin that pays off a credit card now counts as a transfer, not spending. It is matched to the card's payment
+  line automatically when the amounts are close, or pick "This paid off…" on the bitcoin line. Card payment lines
+  an older version filed as income are corrected on start.
 dependencies: []
 path: ""
 defaultUsername: ""
