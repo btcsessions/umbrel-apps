@@ -9,7 +9,7 @@ services:
       APP_PORT: 4600
 
   web:
-    image: ghcr.io/btcsessions/life-architect:0.1.2
+    image: ghcr.io/btcsessions/life-architect:0.2.0
     restart: on-failure
     user: "1000:1000"
     init: true
@@ -17,3 +17,16 @@ services:
       - ${APP_DATA_DIR}/data:/data
     environment:
       TZ: America/Edmonton
+      # The bundled speech-to-text service below. Can be overridden in the app's Settings.
+      STT_URL: http://btcsessions-life-architect_whisper_1:9000
+      STT_LANGUAGE: en
+
+  # Speech-to-text for voice quick-add. Runs on the Umbrel; audio never leaves it.
+  whisper:
+    image: onerahmet/openai-whisper-asr-webservice:latest
+    restart: on-failure
+    environment:
+      ASR_MODEL: base
+      ASR_ENGINE: faster_whisper
+    volumes:
+      - ${APP_DATA_DIR}/whisper:/root/.cache
