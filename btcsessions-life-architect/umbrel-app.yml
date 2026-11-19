@@ -4,11 +4,12 @@ name: Life Architect
 tagline: One deck for everything on your plate
 icon: https://raw.githubusercontent.com/btcsessions/umbrel-apps/main/btcsessions-life-architect/icon.svg
 category: automation
-version: "0.2.0"
+version: "0.3.0"
 port: 4600
 description: >-
-  A personal command deck. One ranked "next up" list, modules for each area of life,
-  and quick-add that files what you type into the right place.
+  A personal command deck. One ranked "next up" list, voice quick-add, and modules for each area of life:
+  trips, a Gmail inbox that drafts replies and hands mail off, a PIN-locked money dashboard,
+  and a PIN-locked People section that only its own model ever reads.
 developer: BTC Sessions
 website: https://github.com/btcsessions/umbrel-apps
 submitter: BTC Sessions
@@ -17,8 +18,9 @@ repo: ""
 support: https://github.com/btcsessions/umbrel-apps/issues
 gallery: []
 releaseNotes: >-
-  Voice quick-add: tap the mic, talk, tap again, and it is written down and filed.
-  Adds a speech-to-text service that runs on your Umbrel. Its first start downloads a model, so give it a few minutes.
+  Adds Travel (trips, bookings, costs, schedule to Google Calendar), Money (PIN, statement import, spending chart),
+  People (PIN, relationships, scenarios, readings, library), Inbox (Gmail sorting, spoken replies, hand-off by email),
+  the Hermes relay, and Noticed suggestions under Build. Set PINs on first open; add Gmail and models in Settings.
 dependencies: []
 path: ""
 defaultUsername: ""
