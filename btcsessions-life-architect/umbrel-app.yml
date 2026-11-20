@@ -4,7 +4,7 @@ name: Life Architect
 tagline: One deck for everything on your plate
 icon: https://raw.githubusercontent.com/btcsessions/umbrel-apps/main/btcsessions-life-architect/icon.svg
 category: automation
-version: "0.3.14"
+version: "0.4.0"
 port: 4600
 description: >-
   A personal command deck. One ranked "next up" list, voice quick-add, and modules for each area of life:
@@ -18,8 +18,9 @@ repo: ""
 support: https://github.com/btcsessions/umbrel-apps/issues
 gallery: []
 releaseNotes: >-
-  Stocks: "Find the right listing" shows the company, exchange and currency for each match before you add it, and
-  Update on a holding now lets you change its ticker when the wrong company was picked.
+  Adds a connector on port 4601 so Claude can add and do things in Life Architect by voice from your phone. It needs
+  the relay token, cannot touch People or send email, and stays unreachable from the internet until you publish it
+  (see docs/claude-connector.md in the app's GitHub repository).
 dependencies: []
 path: ""
 defaultUsername: ""
