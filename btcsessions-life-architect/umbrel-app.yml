@@ -4,7 +4,7 @@ name: Life Architect
 tagline: One deck for everything on your plate
 icon: https://raw.githubusercontent.com/btcsessions/umbrel-apps/main/btcsessions-life-architect/icon.svg
 category: automation
-version: "0.4.0"
+version: "0.5.0"
 port: 4600
 description: >-
   A personal command deck. One ranked "next up" list, voice quick-add, and modules for each area of life:
@@ -18,9 +18,9 @@ repo: ""
 support: https://github.com/btcsessions/umbrel-apps/issues
 gallery: []
 releaseNotes: >-
-  Adds a connector on port 4601 so Claude can add and do things in Life Architect by voice from your phone. It needs
-  the relay token, cannot touch People or send email, and stays unreachable from the internet until you publish it
-  (see docs/claude-connector.md in the app's GitHub repository).
+  New Work area: a tutorial list you can reorder, each tutorial with stages, notes, links and its outline; Bitcast
+  prep from a rundown PDF with intro-hook takes you can revise by voice; line edit and YouTube prep run through
+  Hermes. Claude can now add tutorial ideas and save outlines from a voice conversation.
 dependencies: []
 path: ""
 defaultUsername: ""
