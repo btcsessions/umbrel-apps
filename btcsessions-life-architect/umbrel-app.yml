@@ -4,7 +4,7 @@ name: Life Architect
 tagline: One deck for everything on your plate
 icon: https://raw.githubusercontent.com/btcsessions/umbrel-apps/main/btcsessions-life-architect/icon.svg
 category: automation
-version: "0.7.0"
+version: "0.7.1"
 port: 4600
 description: >-
   A personal command deck. One ranked "next up" list, voice quick-add, and modules for each area of life:
@@ -18,11 +18,8 @@ repo: ""
 support: https://github.com/btcsessions/umbrel-apps/issues
 gallery: []
 releaseNotes: >-
-  YouTube prep gets its own screen: see the titles, thumbnail, socials (X, Facebook, Nostr, Community), cards
-  with timestamps and links, description, tags and Studio to-dos. Change the title, upload a thumbnail, suggest
-  edits to any post, and set a release time later to schedule the video and socials. The app now checks in on
-  Hermes every few minutes and leaves a task when the prep is ready. Fixes long Hermes jobs being cut off after
-  5 minutes.
+  YouTube prep: "Get it from Hermes" pulls in a prep Hermes already did (or refreshes the current one) without
+  running anything again.
 dependencies: []
 path: ""
 defaultUsername: ""

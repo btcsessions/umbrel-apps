@@ -9,7 +9,7 @@ services:
       APP_PORT: 4600
 
   web:
-    image: ghcr.io/btcsessions/life-architect:0.7.0
+    image: ghcr.io/btcsessions/life-architect:0.7.1
     restart: on-failure
     ports:
       # The connector for Claude and other assistants (token required). The deck itself stays behind app_proxy.
