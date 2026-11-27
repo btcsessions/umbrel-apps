@@ -4,7 +4,7 @@ name: Life Architect
 tagline: One deck for everything on your plate
 icon: https://raw.githubusercontent.com/btcsessions/umbrel-apps/main/btcsessions-life-architect/icon.svg
 category: automation
-version: "0.7.1"
+version: "0.8.0"
 port: 4600
 description: >-
   A personal command deck. One ranked "next up" list, voice quick-add, and modules for each area of life:
@@ -18,8 +18,10 @@ repo: ""
 support: https://github.com/btcsessions/umbrel-apps/issues
 gallery: []
 releaseNotes: >-
-  YouTube prep: "Get it from Hermes" pulls in a prep Hermes already did (or refreshes the current one) without
-  running anything again.
+  People is now guidance first: an overall read and what to do now on top, one box to ask or drop in context
+  (text, voice, screenshots, PDFs), and a short list where each person or scenario opens to its own guidance and
+  "Go deeper". The detailed records moved behind Records. Hermes can now ask People and read its guidance from
+  Telegram with a separate People token.
 dependencies: []
 path: ""
 defaultUsername: ""
