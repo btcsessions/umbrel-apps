@@ -4,7 +4,7 @@ name: Life Architect
 tagline: One deck for everything on your plate
 icon: https://raw.githubusercontent.com/btcsessions/umbrel-apps/main/btcsessions-life-architect/icon.svg
 category: automation
-version: "0.8.1"
+version: "0.9.0"
 port: 4600
 description: >-
   A personal command deck. One ranked "next up" list, voice quick-add, and modules for each area of life:
@@ -18,8 +18,10 @@ repo: ""
 support: https://github.com/btcsessions/umbrel-apps/issues
 gallery: []
 releaseNotes: >-
-  People can now read screenshots: images you attach (or Hermes sends from Telegram) go to People's own model as
-  images. If the model can't take images, it answers from your text and tells you it didn't see them.
+  Inbox now shows only what Hermes's email sort flags as needing you: one badge per run that clears when you
+  open it, Hermes's draft replies ready to send, watches that only re-flag when something changes, and a digest
+  of what Hermes handled. The app no longer sorts mail or sends it to a model by itself, and mail bodies are
+  stripped of hidden text before storing.
 dependencies: []
 path: ""
 defaultUsername: ""
